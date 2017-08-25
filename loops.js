@@ -21,18 +21,18 @@ function whileLoop(n){
   return "done";
 }
 
-function doWhileLoop(array){
-  var i = 0;
-  function maybeTrue(){
-    return Math.random()>=0.5
-  }
-
-  do{
-
-    array.pop();
-
-  }while(maybeTrue() ||  array.length > 0);
-}
+// function doWhileLoop(array){
+//   var i = 0;
+//   function maybeTrue(){
+//     return Math.random()>=0.5
+//   }
+//
+//   do{
+//
+//     array.pop();
+//
+//   }while(maybeTrue() ||  array.length > 0);
+// }
 
 // forLoop(array);
 // whileLoop(5);
