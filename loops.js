@@ -22,7 +22,7 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  var i = 0;
+
   function maybeTrue(){
     return Math.random()>=0.5
   }
