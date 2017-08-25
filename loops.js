@@ -35,5 +35,5 @@ function doWhileLoop(array){
 }
 
 // forLoop(array);
-whileLoop(5);
+// whileLoop(5);
 doWhileLoop(array);
