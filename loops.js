@@ -5,9 +5,9 @@ function forLoop(array){
   for(let i = 0; i<25; i++){
     var t= i+1;
     if (i==0){
-      array[i]="I am 1 strange loop.";
+      array.push("I am 1 strange loop.");
     } else{
-    array[i]=`I am ${t} strange loops.`;
+    array.push(`I am ${t} strange loops.`);
     }
   }
   return array;
